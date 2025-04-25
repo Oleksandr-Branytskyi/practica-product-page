@@ -1,0 +1,94 @@
+body {
+  font-family: Poppins, sans-serif;
+  color: #22343d;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+.container {
+  width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+/* HEADER */
+
+.header {
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93;
+  color: #173a56;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-right: 237px;
+}
+.header-nav {
+  margin-right: 73px;
+}
+.header-nav-list {
+  display: flex;
+  gap: 30px;
+}
+.header-nav-link {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+.current {
+  font-weight: 600;
+}
+.header-btn-list {
+  display: flex;
+  gap: 21px;
+}
+.header-btn {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 105px;
+  height: 42px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.header-btn:hover,
+.header-btn:focus {
+  color: #fff;
+  background-color: #02897a;
+  border: none;
+}
